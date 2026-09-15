@@ -48,7 +48,9 @@ a {
   font-weight: 600;
 }
 
+a:focus,
 a:focus-visible,
+.button:focus,
 .button:focus-visible {
   outline: 3px solid #0f172a;
   outline-offset: 3px;
@@ -90,6 +92,7 @@ main {
 }
 
 .site-nav a:hover,
+.site-nav a:focus,
 .site-nav a:focus-visible {
   text-decoration-thickness: 2px;
 }
