@@ -25,6 +25,11 @@ a {
   text-underline-offset: 0.15em;
 }
 
+.uncopyable-email {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
 .container {
   width: min(960px, calc(100% - 2rem));
   margin: 0 auto;
