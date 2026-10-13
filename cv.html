@@ -17,25 +17,106 @@
         <a href="public-talks.html">Public Talks</a>
       </nav>
       <h1>Curriculum Vitae</h1>
-      <p class="lead">A lightweight landing page for a fuller CV or résumé download.</p>
+      <p class="lead">Computational scientist and research software engineer focused on uncertainty quantification, machine-learning surrogates, and scientific software for fusion research.</p>
+      <p><a href="mailto:yehor.yudin@gmail.com">yehor.yudin@gmail.com</a> ·
+        <a href="https://orcid.org/0000-0001-8867-3207">ORCID</a> ·
+        <a href="https://scholar.google.com/citations?user=7UWQ9g0AAAAJ&amp;hl=en">Google Scholar</a> ·
+        <a href="https://github.com/YehorYudinIPP">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/yehor-yudin-38a26296/">LinkedIn</a>
+      </p>
     </div>
   </header>
   <main class="container section-stack">
     <section class="section-block">
       <h2>Profile</h2>
-      <p>Yehor Yudin is a researcher and software developer with interests in computational modeling, scientific programming, and uncertainty quantification.</p>
+      <p>Computational scientist working on uncertainty quantification (UQ) and machine-learning surrogate models for multiphysics, multiscale simulation on high-performance computing systems. PhD research at the Technical University of Munich (TUM) and Max Planck Institute for Plasma Physics (IPP) addressed UQ for coupled plasma turbulent transport. Postdoctoral work at Bangor University focused on tritium transport in lithium-ceramic breeder materials. Earlier industrial experience includes production C++ scientific software at Siemens Corporate Technology.</p>
     </section>
     <section class="section-block">
       <h2>Highlights</h2>
       <ul>
-        <li>Scientific software development for research workflows</li>
-        <li>Computational modeling and simulation</li>
-        <li>Technical communication across code, papers, and talks</li>
+        <li>Non-intrusive UQ and surrogate modelling for computational fusion science</li>
+        <li>Research software engineering, open-source tools, and reproducible scientific workflows</li>
+        <li>High-performance computing and multiphysics, multiscale simulation</li>
       </ul>
     </section>
     <section class="section-block">
-      <h2>Next step</h2>
-      <p>Replace this placeholder content with a downloadable PDF or a fuller CV summary when ready.</p>
+      <h2>Experience</h2>
+      <h3>Research Officer (Postdoctoral Research Associate) · Nuclear Futures Institute, Bangor University</h3>
+      <p><time datetime="2025-06">June 2025</time>–<time datetime="2026-07">July 2026</time> · Bangor, Wales, UK</p>
+      <ul>
+        <li>Developed UQ methodology for multiphysics modelling of tritium transport in lithium-based ceramics and other fusion-relevant materials within the UKAEA-funded TRIMAX project, part of the LIBRTI programme.</li>
+        <li>Built FESTIM-NIUQ, an EasyVVUQ-based UQ package for FESTIM hydrogen-transport simulations, and developed OpenMC-NIUQ for neutronics. Applied the MOOSE Stochastic Tools Module, TMAP8, and SALAMANDER to coupled thermal and gas-transport models.</li>
+        <li>Collaborated on model validation and experiment prediction with the University of Birmingham HF-ADNeF neutron beam facility in a multidisciplinary project spanning simulation, ceramic manufacture, and experimental characterisation.</li>
+        <li>Presented work at ICCS 2026, the LIBRTI Conference on Breeder Blanket Technology, and OSSFE 2026, where I chaired a session. The FESTIM-NIUQ paper was submitted to JOSS in September 2026 and is under review.</li>
+      </ul>
+      <h3>Doctoral Researcher · Max Planck Institute for Plasma Physics</h3>
+      <p><time datetime="2020-05">May 2020</time>–<time datetime="2024-10">October 2024</time> · Garching, Germany</p>
+      <ul>
+        <li>Conducted PhD research on UQ and machine-learning surrogate models for multiscale, high-performance plasma turbulent-transport simulations.</li>
+        <li>Worked in an IPP team in the VECMA/SEAVEA consortium developing validation, verification, and UQ (VVUQ) methods and open-source software; contributed to EasySurrogate, particularly Gaussian-process models and EasyVVUQ integration.</li>
+      </ul>
+      <h3>Research Software Engineer, Master’s Thesis Researcher, and Working Student · Siemens Corporate Technology</h3>
+      <p><time datetime="2017-06">June 2017</time>–<time datetime="2019-09">September 2019</time> · Munich, Germany</p>
+      <ul>
+        <li>Developed production C++ scientific software for multiphysics simulation and topology optimisation, including a 3D meshing and voxelisation library and surface-integration modules for a GPU multigrid solver.</li>
+        <li>Worked on performance and validation testing for finite-element software, geometric representations, post-processing, and computational interfaces.</li>
+      </ul>
+    </section>
+    <section class="section-block">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Dr. rer. nat. (PhD), Technical University of Munich</strong>, 2020–2024. Computational plasma physics, UQ, and machine learning; grade: cum laude.</li>
+        <li><strong>M.Sc. with Honours, Computational Science and Engineering, Technical University of Munich</strong>, 2015–2018. Bavarian Graduate School of Computational Engineering honours track; grade: 1.6.</li>
+        <li><strong>B.Sc., Applied Mathematics, National Technical University of Ukraine</strong>, 2010–2014; grade: A.</li>
+      </ul>
+      <h3>Theses</h3>
+      <ul>
+        <li><em>Uncertainty Quantification and Machine Learning Surrogate Models for Multi-Scale High-Performance-Computing Plasma Physics Turbulent Transport Simulations</em>, PhD thesis, TUM, 2024.</li>
+        <li><em>Artificial Neural Network Approach to Design Optimization</em>, M.Sc. thesis, TUM, 2018.</li>
+        <li><em>Reinforcement Learning Applied to Garbage Collection</em>, B.Sc. thesis, NTUU, 2014.</li>
+      </ul>
+    </section>
+    <section class="section-block">
+      <h2>Selected projects</h2>
+      <ul>
+        <li><strong><a href="https://github.com/YehorYudinIPP/festim_niuq">FESTIM-NIUQ</a></strong> — Python tooling for non-intrusive UQ of FESTIM tritium-transport simulations using EasyVVUQ; developed as part of TRIMAX/LIBRTI. Associated JOSS paper under review.</li>
+        <li><strong><a href="https://github.com/YehorYudinIPP/OpenMC_NIUQ">OpenMC-NIUQ</a></strong> — non-intrusive UQ workflows for OpenMC neutronics models.</li>
+        <li><strong><a href="https://github.com/djgroen/FUMEplot">FUMEplot</a></strong> — open-source visualisation of uncertainties in ensemble simulation outputs; a three-person VECMA/SEAVEA project.</li>
+        <li><strong><a href="https://github.com/wedeling/EasySurrogate">EasySurrogate</a></strong> — surrogate-modelling toolkit for multiscale simulations; contributed Gaussian-process surrogates and EasyVVUQ integration.</li>
+        <li><strong>TRIMAX</strong> — uncertainty-aware multiphysics modelling of fusion-relevant materials in collaboration with Bangor University, UKAEA, and the University of Birmingham HF-ADNeF facility.</li>
+        <li><strong>Homecoming</strong> — Python agent-based modelling of refugee return, a project commissioned via tender by UNHCR and recognised with Brunel’s Civic Engagement and Societal Impact award.</li>
+      </ul>
+    </section>
+    <section class="section-block">
+      <h2>Selected publications</h2>
+      <ul>
+        <li>Yehor Yudin et al. (2026). “FESTIM-NIUQ: Non-Intrusive Uncertainty Quantification for Tritium Transport Modelling.” Submitted to the <em>Journal of Open Source Software</em>; under review.</li>
+        <li>Derek Groen, Jon McCullough, and Yehor Yudin (2025). “FUMEplot: A Prototype Tool for Automated Visualisation of Uncertainties in Ensemble Modelling Outputs.” <em>ICCS 2025</em>, LNCS 15911, pp. 71–78. <a href="https://doi.org/10.1007/978-3-031-97570-7_7">doi:10.1007/978-3-031-97570-7_7</a>.</li>
+        <li>Yehor Yudin et al. (2023). “Epistemic and Aleatoric Uncertainty Quantification and Surrogate Modelling in High-Performance Multiscale Plasma Physics Simulations.” <em>ICCS 2023</em>, pp. 572–586. <a href="https://doi.org/10.1007/978-3-031-36027-5_45">doi:10.1007/978-3-031-36027-5_45</a>.</li>
+        <li>Yehor Yudin et al. (2021). “Gaussian Process Surrogate Models for Uncertainty Quantification in Multiscale Fusion Simulations.” <em>21st International Conference on Computational Science</em>.</li>
+      </ul>
+      <p><a href="academic-papers.html">More publication details</a> · <a href="https://scholar.google.com/citations?user=7UWQ9g0AAAAJ&amp;hl=en">Google Scholar profile</a>.</p>
+    </section>
+    <section class="section-block">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Programming:</strong> Python, C++, C, Fortran, Java, C#.</li>
+        <li><strong>UQ and surrogate modelling:</strong> Polynomial chaos, Gaussian-process regression, Bayesian calibration and optimisation, sensitivity analysis, epistemic/aleatoric separation, active learning, reduced-order and multi-fidelity models.</li>
+        <li><strong>Scientific software:</strong> MUSCLE3, EasyVVUQ, EasySurrogate, FUMEplot, FESTIM, OpenMC, MOOSE, TMAP8, SALAMANDER, GEM, CHEASE, European Transport Solver, IMAS/CPO.</li>
+        <li><strong>HPC and machine learning:</strong> MPI, OpenMP, CUDA, OpenCL, OpenACC, GPU multigrid, SLURM, PyTorch, TensorFlow, scikit-learn.</li>
+        <li><strong>Numerical methods and tools:</strong> Finite elements and volumes, Navier–Stokes, topology optimisation, level sets, meshing and voxelisation, OpenCASCADE, VTK, OpenVDB, ParaView, Gmsh, Eigen, NumPy, SciPy, pandas, h5py, HDF5, matplotlib, seaborn.</li>
+        <li><strong>Software engineering:</strong> Git, continuous integration, unit and regression testing, code review, API design, documentation, open-source releases, LaTeX.</li>
+        <li><strong>Languages:</strong> German, English, Ukrainian, Russian.</li>
+      </ul>
+    </section>
+    <section class="section-block">
+      <h2>Service and professional development</h2>
+      <ul>
+        <li>Reviewer, <em>Journal of Open Source Software</em> (since 2023).</li>
+        <li>PhD student representative, Munich School of Data Science (2023–2024), contributing to programme evaluation, graduate-school governance, student surveys, and retreat organisation.</li>
+        <li>Educator for a supervised-learning introduction workshop, University of Liverpool (2025); research software engineering and research contributor to the UNHCR/Brunel Homecoming project (since 2025).</li>
+        <li>Selected training: Hands-on Explainable AI, Austrian Scientific Computing (2026); ICTP–IAEA School on AI for Nuclear, Plasma and Fusion Science (2023); NVIDIA/HLRS SciML GPU Bootcamp (2022); MIT Computational Physics School for Fusion Research (2022).</li>
+      </ul>
     </section>
   </main>
 </body>
